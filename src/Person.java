@@ -8,6 +8,16 @@ public class Person {
         this.surname = surname;
         this.tickets = tickets;
     }
+    public int getTicketsAmount() {
+        return tickets;
+    }
 
+    public String getName() {
+        return name ;
+    }
+
+    public void setTicketsAmount(int tickets) {
+        this.tickets = tickets;
+    }
 
 }
